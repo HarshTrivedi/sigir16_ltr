@@ -1,8 +1,8 @@
 require 'nokogiri'
 require 'awesome_print'
 
-
-Dir['/home/harsh/sigir_workspace/documents/*'].each do |file_name|
+count = 0
+Dir[ Dir.pwd + '/documents/*'].each do |file_name|
 	title, abstract, content = File.readlines(file_name)
 
 
@@ -19,6 +19,8 @@ Dir['/home/harsh/sigir_workspace/documents/*'].each do |file_name|
 		file.puts builder.to_xml
 	end
 	File.delete(file_name)
+	puts count
+	count += 1
 end
 
 #2648745

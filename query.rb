@@ -61,14 +61,16 @@ class Query
 			cached_feats = Feature.check_cache( token , document_id )
 			if cached_feats.nil? or cached_feats.empty?
 				# ap "NO HIT POSSIBLE"
-				feat_1 = feature.one ; sum_one += feat_1
-				feat_2 = feature.two ; sum_two += feat_2
-				feat_3 = feature.three ; sum_three += feat_3
-				feat_4 = feature.four ; sum_four += feat_4
-				feat_5 = feature.five ; sum_five += feat_5
-				feat_6 = feature.six ; sum_six += feat_6
-				feat_7 = feature.seven ; sum_seven += feat_7
-				feat_8 = feature.eight ; sum_eight += feat_8
+				if ((Posting.whole[token][document_id.to_i] > 0) rescue false)
+					feat_1 = feature.one ; sum_one += feat_1
+					feat_2 = feature.two ; sum_two += feat_2
+					feat_3 = feature.three ; sum_three += feat_3
+					feat_4 = feature.four ; sum_four += feat_4
+					feat_5 = feature.five ; sum_five += feat_5
+					feat_6 = feature.six ; sum_six += feat_6
+					feat_7 = feature.seven ; sum_seven += feat_7
+					feat_8 = feature.eight ; sum_eight += feat_8
+				end
 			else
 				# ap "PING. I HIT THE CACHE !!!!!!!!!!!!!!!!!!!!!!!!!!!! : #{cached_feats.inspect}"
 				feat_1, feat_2, feat_3, feat_4, feat_5, feat_6, feat_7, feat_8 = cached_feats

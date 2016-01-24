@@ -1,7 +1,9 @@
 # encoding: utf-8
 require 'nokogiri'
 require 'awesome_print'
-require 'words_counted'
+# require 'words_counted'
+require 'textoken'
+
 require 'bloomfilter-rb'
 require 'csv'
 require "benchmark"
@@ -39,18 +41,22 @@ Benchmark.bm(7) do |time|
 	ap "Memory Occupied at Check 1: #{memory_occupied}" ; memory_checkpoints << memory_occupied
 	ap "Memory Occupied by Queries : #{Query.memory_occupied}"
 
+
 	## compute and store termfrequencies for each document
-	time.report("Completed all Documents loading in:"){
-		Dir['/home/harsh/sigir_workspace/documents/*.xml'].each do |file_name|
+	# time.report("Completed all Documents loading in:"){
+		# count = 0
+		Dir[ Dir.pwd + '/documents/*.xml'].each do |file_name|
 			document = Document.new(file_name)
 			document.save_term_frequencies
+			# count += 1
+			# ap count
 		end
 		ap "Completed saving term frequencies"
 		document_collection_size = 0.0
 		Document.ids.each{|id| document_collection_size += Document.document_id_length_hash[id].to_f }
 		Document.collection_size = document_collection_size
 		ap "Completed pre-calculating required attributes"
-	}
+	# }
 	ap "Memory Occupied at Check 2: #{memory_occupied}" ; memory_checkpoints << memory_occupied
 	ap "Memory Occupied by Documents : #{Document.memory_occupied}"
 

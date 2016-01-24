@@ -5,7 +5,8 @@ class String
 
 	def tokenize
 		# ap self
-		WordsCounted::Tokeniser.new(self).tokenise
+		# WordsCounted::Tokeniser.new(self).tokenise
+		Textoken(self).tokens
 	end
 
 	def is_stop_word?
