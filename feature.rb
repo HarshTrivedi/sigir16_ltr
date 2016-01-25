@@ -26,10 +26,20 @@ class Feature
 		@f = Document.average_document_length.to_f
 		@g = Math::log((@d-@c+0.5)/(@c+0.5))
 
+		# ap "a #{@a} ; b #{@b} ; c #{@c} ; d #{@d} ; e #{@e} ; f #{@f} ; g #{@g}"
+
 		k1 = 2.5 ; k3 = 0 ; b = 0.8 ;
-		ap "a #{@a} ; b #{@b} ; c #{@c} ; d #{@d} ; e #{@e} ; f #{@f} ; g #{@g}"
 		@bm25 = @g*(  ( @a * (k1+1))/(@a + k1*(1 - b + (b*(@b/@f))) )  ) * ( ((k3+1)*@a)/(k3+@a) )
-		# @bm25 = 1
+
+		u = 2000
+		@lmir_dir = (@a + u * ( @a / @d)) / (@e + u)
+
+		l = 0.1
+		@lmir_jm = ((1 - l) * (@a/@e)) + (l)*(@a/@d)
+
+		# d = 0.7
+		# @lmir_abs = (( [@a - d, 0].max )/@e ) + ((d*X*@a)/(@b*@d))
+
 	end
 
 	def one
@@ -81,15 +91,15 @@ class Feature
 	end
 
 	def thirteen
-
+		@lmir_dir
 	end
 
 	def fourteen
-
+		@lmir_jm
 	end
 
 	def fifteen
-
+		@lmir_abs
 	end
 
 	def self.memory_occupied

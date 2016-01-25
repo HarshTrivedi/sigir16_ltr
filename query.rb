@@ -54,10 +54,15 @@ class Query
 		sum_eight = 0
 		sum_nine = 0
 		sum_ten = 0
+		sum_eleven = 0
+		sum_twelve = 0
+		sum_thirteen = 0
+		sum_fourteen = 0		
+		sum_fifteen = 0
 
 		for token in tokens
-			feature = Feature.new( token , document_id )
 				if ((Posting.whole[token][document_id.to_i] > 0) rescue false)
+					feature = Feature.new( token , document_id )
 					feat_1 = feature.one ; sum_one += feat_1
 					feat_2 = feature.two ; sum_two += feat_2
 					feat_3 = feature.three ; sum_three += feat_3
@@ -68,9 +73,14 @@ class Query
 					feat_8 = feature.eight ; sum_eight += feat_8
 					feat_9 = feature.nine ; sum_nine += feat_9
 					feat_10 = feature.ten ; sum_ten += feat_10
+					feat_11 = feature.eleven ; sum_eleven += feat_11
+					feat_12 = feature.twelve ; sum_twelve += feat_12
+					feat_13 = feature.thirteen ; sum_thirteen += feat_13
+					feat_14 = feature.fourteen ; sum_fourteen += feat_14
+					feat_15 = feature.fifteen ; sum_fifteen += feat_15
 				end
 		end
-		[sum_one, sum_two, sum_three, sum_four, sum_five, sum_six, sum_seven, sum_eight, sum_nine, sum_ten]
+		[sum_one, sum_two, sum_three, sum_four, sum_five, sum_six, sum_seven, sum_eight, sum_nine, sum_ten, sum_eleven, sum_twelve, sum_thirteen, sum_fourteen, sum_fifteen]
 	end
 
 	def self.memory_occupied
