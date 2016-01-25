@@ -15,6 +15,7 @@ class Feature
 	def initialize(term, document_id)
 		posting_hash = Posting.whole[term]
 		collection_term_frequency = posting_hash["size"]
+		document_id_vocab_size_hash = Document.document_id_vocab_size_hash[document_id]
 
 		@term = term
 		@document_id = document_id
@@ -37,8 +38,8 @@ class Feature
 		l = 0.1
 		@lmir_jm = ((1 - l) * (@a/@e)) + (l)*(@a/@d)
 
-		# d = 0.7
-		# @lmir_abs = (( [@a - d, 0].max )/@e ) + ((d*X*@a)/(@b*@d))
+		d = 0.7
+		@lmir_abs = (( [@a - d, 0].max )/@e ) + ((d*document_id_vocab_size_hash*@a)/(@b*@d))
 
 	end
 

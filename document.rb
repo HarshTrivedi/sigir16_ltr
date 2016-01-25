@@ -5,6 +5,7 @@ class Document
 	@@document_id_length_hash = Hash.new(0)
 	@@collection_size = 0
 	@@average_document_length = 0
+	@@document_id_vocab_size_hash = Hash.new(0)
 
 	attr_accessor :id, :file_path #, :term_frequencies_path
 
@@ -67,4 +68,13 @@ class Document
 	def self.average_document_length
 		@@average_document_length
 	end
+
+	def self.document_id_vocab_size_hash
+		@@document_id_vocab_size_hash
+	end
+
+	def self.document_id_vocab_size_hash=(document_id_vocab_size_hash)
+		@@document_id_vocab_size_hash
+	end
+
 end

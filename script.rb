@@ -16,6 +16,7 @@ memory_checkpoints = []
 $query_attribute_to_index = "summary" #summary, #description
 $document_attribute_to_index = "abstract" # title, #abstract, #content
 
+puts "Process start at : #{Time.now}"
 
 Benchmark.bm(7) do |time|
 
@@ -52,6 +53,7 @@ Benchmark.bm(7) do |time|
 		document_id_length_hash[document.id] = document_tokens.size
 		document_collection_size += document_tokens.size
 		Document.document_id_length_hash[document.id] = document_tokens.size
+		Document.document_id_vocab_size_hash[document.id] = document_tokens.uniq.size
 		document_tokens.each{|token| 
 			if term_document_frequency_hash[token] == nil 
 				term_document_frequency_hash[token] = Hash.new(0)
@@ -70,6 +72,8 @@ Benchmark.bm(7) do |time|
 	Document.average_document_length = document_collection_size.to_f /  total_number_of_documents.to_f
 
 	ap "Memory Occupied at Check 2: #{memory_occupied}"
+	puts "First Part Complete at : #{Time.now}"
+
 
 	Posting.set_whole(term_document_frequency_hash)
 	final_feature_set = []
@@ -82,11 +86,15 @@ Benchmark.bm(7) do |time|
 		puts "Completed query #{query.id}"
 	end
 
+	puts "Feature computation complete at : #{Time.now}"
+
 	CSV.open(Dir.pwd + "/output/features.csv" , "w") do |csv_object|
 		final_feature_set.each do |row_array|
 			csv_object << row_array
 		end
 	end
+
+	puts "Whole process complete at : #{Time.now}"
 
 	ap "Memory Occupied at Check 3: #{memory_occupied}"
 end
