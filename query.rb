@@ -44,7 +44,6 @@ class Query
 		elsif $query_attribute_to_index == "description"
 			tokens = self.description.tokenize.filter			
 		end
-
 		sum_one = 0
 		sum_two = 0
 		sum_three = 0
@@ -53,39 +52,35 @@ class Query
 		sum_six = 0
 		sum_seven = 0
 		sum_eight = 0
-		sum_night = 0
+		sum_nine = 0
 		sum_ten = 0
+		sum_eleven = 0
+		sum_twelve = 0
+		sum_thirteen = 0
+		sum_fourteen = 0		
+		sum_fifteen = 0
 
 		for token in tokens
-			feature = Feature.new( token , document_id )
-			cached_feats = Feature.check_cache( token , document_id )
-			if cached_feats.nil? or cached_feats.empty?
-				# ap "NO HIT POSSIBLE"
-				feat_1 = feature.one ; sum_one += feat_1
-				feat_2 = feature.two ; sum_two += feat_2
-				feat_3 = feature.three ; sum_three += feat_3
-				feat_4 = feature.four ; sum_four += feat_4
-				feat_5 = feature.five ; sum_five += feat_5
-				feat_6 = feature.six ; sum_six += feat_6
-				feat_7 = feature.seven ; sum_seven += feat_7
-				feat_8 = feature.eight ; sum_eight += feat_8
-			else
-				# ap "PING. I HIT THE CACHE !!!!!!!!!!!!!!!!!!!!!!!!!!!! : #{cached_feats.inspect}"
-				feat_1, feat_2, feat_3, feat_4, feat_5, feat_6, feat_7, feat_8 = cached_feats
-				sum_one += feat_1
-				sum_two += feat_2
-				sum_three += feat_3
-				sum_four += feat_4
-				sum_five += feat_5
-				sum_six += feat_6
-				sum_seven += feat_7
-				sum_eight += feat_8
-			end
-
-			feature.cache([feat_1, feat_2, feat_3, feat_4, feat_5, feat_6, feat_7, feat_8])
+				if ((Posting.whole[token][document_id.to_i] > 0) rescue false)
+					feature = Feature.new( token , document_id )
+					feat_1 = feature.one ; sum_one += feat_1
+					feat_2 = feature.two ; sum_two += feat_2
+					feat_3 = feature.three ; sum_three += feat_3
+					feat_4 = feature.four ; sum_four += feat_4
+					feat_5 = feature.five ; sum_five += feat_5
+					feat_6 = feature.six ; sum_six += feat_6
+					feat_7 = feature.seven ; sum_seven += feat_7
+					feat_8 = feature.eight ; sum_eight += feat_8
+					feat_9 = feature.nine ; sum_nine += feat_9
+					feat_10 = feature.ten ; sum_ten += feat_10
+					feat_11 = feature.eleven ; sum_eleven += feat_11
+					feat_12 = feature.twelve ; sum_twelve += feat_12
+					feat_13 = feature.thirteen ; sum_thirteen += feat_13
+					feat_14 = feature.fourteen ; sum_fourteen += feat_14
+					feat_15 = feature.fifteen ; sum_fifteen += feat_15
+				end
 		end
-
-		[sum_one, sum_two, sum_three, sum_four, sum_five, sum_six, sum_seven, sum_eight]
+		[sum_one, sum_two, sum_three, sum_four, sum_five, sum_six, sum_seven, sum_eight, sum_nine, sum_ten, sum_eleven, sum_twelve, sum_thirteen, sum_fourteen, sum_fifteen]
 	end
 
 	def self.memory_occupied
