@@ -1,0 +1,232 @@
+# Logfile created on 2016-01-27 22:08:06 +0530 by logger.rb/44203
+[2016-01-27 22:08:06 +0530 harsh-Lenovo-U410 (13714)] INFO : Starting the New Relic agent in "development" environment.
+[2016-01-27 22:08:06 +0530 harsh-Lenovo-U410 (13714)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2016-01-27 22:08:06 +0530 harsh-Lenovo-U410 (13714)] WARN : No configuration file found. Working directory = /home/harsh/Desktop/clean_workplace
+[2016-01-27 22:08:06 +0530 harsh-Lenovo-U410 (13714)] WARN : Looked in these locations (based on defaults): /home/harsh/Desktop/clean_workplace/config/newrelic.yml, /home/harsh/Desktop/clean_workplace/newrelic.yml, /home/harsh/Desktop/clean_workplace/config/newrelic.yml, /home/harsh/Desktop/clean_workplace/newrelic.yml, /home/harsh/.newrelic/newrelic.yml, /home/harsh/newrelic.yml
+[2016-01-27 22:08:06 +0530 harsh-Lenovo-U410 (13714)] INFO : Environment: development
+[2016-01-27 22:08:06 +0530 harsh-Lenovo-U410 (13714)] INFO : No known dispatcher detected.
+[2016-01-27 22:08:06 +0530 harsh-Lenovo-U410 (13714)] INFO : Application: development
+[2016-01-27 22:08:06 +0530 harsh-Lenovo-U410 (13714)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2016-01-27 22:08:06 +0530 harsh-Lenovo-U410 (13714)] INFO : Installing Redis Instrumentation
+[2016-01-27 22:08:06 +0530 harsh-Lenovo-U410 (13714)] INFO : Installing Net instrumentation
+[2016-01-27 22:08:06 +0530 harsh-Lenovo-U410 (13714)] INFO : Finished instrumentation
+[2016-01-27 22:08:29 +0530 harsh-Lenovo-U410 (13722)] INFO : Starting the New Relic agent in "development" environment.
+[2016-01-27 22:08:29 +0530 harsh-Lenovo-U410 (13722)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2016-01-27 22:08:29 +0530 harsh-Lenovo-U410 (13722)] WARN : No configuration file found. Working directory = /home/harsh/Desktop/clean_workplace
+[2016-01-27 22:08:29 +0530 harsh-Lenovo-U410 (13722)] WARN : Looked in these locations (based on defaults): /home/harsh/Desktop/clean_workplace/config/newrelic.yml, /home/harsh/Desktop/clean_workplace/newrelic.yml, /home/harsh/Desktop/clean_workplace/config/newrelic.yml, /home/harsh/Desktop/clean_workplace/newrelic.yml, /home/harsh/.newrelic/newrelic.yml, /home/harsh/newrelic.yml
+[2016-01-27 22:08:29 +0530 harsh-Lenovo-U410 (13722)] INFO : Environment: development
+[2016-01-27 22:08:29 +0530 harsh-Lenovo-U410 (13722)] INFO : No known dispatcher detected.
+[2016-01-27 22:08:29 +0530 harsh-Lenovo-U410 (13722)] INFO : Application: development
+[2016-01-27 22:08:29 +0530 harsh-Lenovo-U410 (13722)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2016-01-27 22:08:29 +0530 harsh-Lenovo-U410 (13722)] INFO : Installing Redis Instrumentation
+[2016-01-27 22:08:29 +0530 harsh-Lenovo-U410 (13722)] INFO : Installing Net instrumentation
+[2016-01-27 22:08:29 +0530 harsh-Lenovo-U410 (13722)] INFO : Finished instrumentation
+[2016-01-27 22:11:01 +0530 harsh-Lenovo-U410 (13798)] INFO : Starting the New Relic agent in "development" environment.
+[2016-01-27 22:11:01 +0530 harsh-Lenovo-U410 (13798)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2016-01-27 22:11:01 +0530 harsh-Lenovo-U410 (13798)] WARN : No configuration file found. Working directory = /home/harsh/Desktop/clean_workplace
+[2016-01-27 22:11:01 +0530 harsh-Lenovo-U410 (13798)] WARN : Looked in these locations (based on defaults): /home/harsh/Desktop/clean_workplace/config/newrelic.yml, /home/harsh/Desktop/clean_workplace/newrelic.yml, /home/harsh/Desktop/clean_workplace/config/newrelic.yml, /home/harsh/Desktop/clean_workplace/newrelic.yml, /home/harsh/.newrelic/newrelic.yml, /home/harsh/newrelic.yml
+[2016-01-27 22:11:01 +0530 harsh-Lenovo-U410 (13798)] INFO : Environment: development
+[2016-01-27 22:11:01 +0530 harsh-Lenovo-U410 (13798)] INFO : No known dispatcher detected.
+[2016-01-27 22:11:01 +0530 harsh-Lenovo-U410 (13798)] INFO : Application: development
+[2016-01-27 22:11:01 +0530 harsh-Lenovo-U410 (13798)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2016-01-27 22:11:01 +0530 harsh-Lenovo-U410 (13798)] INFO : Installing Redis Instrumentation
+[2016-01-27 22:11:01 +0530 harsh-Lenovo-U410 (13798)] INFO : Installing Net instrumentation
+[2016-01-27 22:11:01 +0530 harsh-Lenovo-U410 (13798)] INFO : Finished instrumentation
+[2016-01-27 22:12:14 +0530 harsh-Lenovo-U410 (13847)] INFO : Starting the New Relic agent in "development" environment.
+[2016-01-27 22:12:14 +0530 harsh-Lenovo-U410 (13847)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2016-01-27 22:12:14 +0530 harsh-Lenovo-U410 (13847)] WARN : No configuration file found. Working directory = /home/harsh/Desktop/clean_workplace
+[2016-01-27 22:12:14 +0530 harsh-Lenovo-U410 (13847)] WARN : Looked in these locations (based on defaults): /home/harsh/Desktop/clean_workplace/config/newrelic.yml, /home/harsh/Desktop/clean_workplace/newrelic.yml, /home/harsh/Desktop/clean_workplace/config/newrelic.yml, /home/harsh/Desktop/clean_workplace/newrelic.yml, /home/harsh/.newrelic/newrelic.yml, /home/harsh/newrelic.yml
+[2016-01-27 22:12:14 +0530 harsh-Lenovo-U410 (13847)] INFO : Environment: development
+[2016-01-27 22:12:14 +0530 harsh-Lenovo-U410 (13847)] INFO : No known dispatcher detected.
+[2016-01-27 22:12:14 +0530 harsh-Lenovo-U410 (13847)] INFO : Application: development
+[2016-01-27 22:12:14 +0530 harsh-Lenovo-U410 (13847)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2016-01-27 22:12:14 +0530 harsh-Lenovo-U410 (13847)] INFO : Installing Redis Instrumentation
+[2016-01-27 22:12:14 +0530 harsh-Lenovo-U410 (13847)] INFO : Installing Net instrumentation
+[2016-01-27 22:12:14 +0530 harsh-Lenovo-U410 (13847)] INFO : Finished instrumentation
+[2016-01-27 22:13:07 +0530 harsh-Lenovo-U410 (13864)] INFO : Starting the New Relic agent in "development" environment.
+[2016-01-27 22:13:07 +0530 harsh-Lenovo-U410 (13864)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2016-01-27 22:13:07 +0530 harsh-Lenovo-U410 (13864)] WARN : No configuration file found. Working directory = /home/harsh/Desktop/clean_workplace
+[2016-01-27 22:13:07 +0530 harsh-Lenovo-U410 (13864)] WARN : Looked in these locations (based on defaults): /home/harsh/Desktop/clean_workplace/config/newrelic.yml, /home/harsh/Desktop/clean_workplace/newrelic.yml, /home/harsh/Desktop/clean_workplace/config/newrelic.yml, /home/harsh/Desktop/clean_workplace/newrelic.yml, /home/harsh/.newrelic/newrelic.yml, /home/harsh/newrelic.yml
+[2016-01-27 22:13:07 +0530 harsh-Lenovo-U410 (13864)] INFO : Environment: development
+[2016-01-27 22:13:07 +0530 harsh-Lenovo-U410 (13864)] INFO : No known dispatcher detected.
+[2016-01-27 22:13:07 +0530 harsh-Lenovo-U410 (13864)] INFO : Application: development
+[2016-01-27 22:13:07 +0530 harsh-Lenovo-U410 (13864)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2016-01-27 22:13:07 +0530 harsh-Lenovo-U410 (13864)] INFO : Installing Redis Instrumentation
+[2016-01-27 22:13:07 +0530 harsh-Lenovo-U410 (13864)] INFO : Installing Net instrumentation
+[2016-01-27 22:13:07 +0530 harsh-Lenovo-U410 (13864)] INFO : Finished instrumentation
+[2016-01-27 22:14:09 +0530 harsh-Lenovo-U410 (13888)] INFO : Starting the New Relic agent in "development" environment.
+[2016-01-27 22:14:09 +0530 harsh-Lenovo-U410 (13888)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2016-01-27 22:14:09 +0530 harsh-Lenovo-U410 (13888)] WARN : No configuration file found. Working directory = /home/harsh/Desktop/clean_workplace
+[2016-01-27 22:14:09 +0530 harsh-Lenovo-U410 (13888)] WARN : Looked in these locations (based on defaults): /home/harsh/Desktop/clean_workplace/config/newrelic.yml, /home/harsh/Desktop/clean_workplace/newrelic.yml, /home/harsh/Desktop/clean_workplace/config/newrelic.yml, /home/harsh/Desktop/clean_workplace/newrelic.yml, /home/harsh/.newrelic/newrelic.yml, /home/harsh/newrelic.yml
+[2016-01-27 22:14:09 +0530 harsh-Lenovo-U410 (13888)] INFO : Environment: development
+[2016-01-27 22:14:09 +0530 harsh-Lenovo-U410 (13888)] INFO : No known dispatcher detected.
+[2016-01-27 22:14:09 +0530 harsh-Lenovo-U410 (13888)] INFO : Application: development
+[2016-01-27 22:14:09 +0530 harsh-Lenovo-U410 (13888)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2016-01-27 22:14:09 +0530 harsh-Lenovo-U410 (13888)] INFO : Installing Redis Instrumentation
+[2016-01-27 22:14:09 +0530 harsh-Lenovo-U410 (13888)] INFO : Installing Net instrumentation
+[2016-01-27 22:14:09 +0530 harsh-Lenovo-U410 (13888)] INFO : Finished instrumentation
+[2016-01-27 22:14:22 +0530 harsh-Lenovo-U410 (13908)] INFO : Starting the New Relic agent in "development" environment.
+[2016-01-27 22:14:22 +0530 harsh-Lenovo-U410 (13908)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2016-01-27 22:14:22 +0530 harsh-Lenovo-U410 (13908)] WARN : No configuration file found. Working directory = /home/harsh/Desktop/clean_workplace
+[2016-01-27 22:14:22 +0530 harsh-Lenovo-U410 (13908)] WARN : Looked in these locations (based on defaults): /home/harsh/Desktop/clean_workplace/config/newrelic.yml, /home/harsh/Desktop/clean_workplace/newrelic.yml, /home/harsh/Desktop/clean_workplace/config/newrelic.yml, /home/harsh/Desktop/clean_workplace/newrelic.yml, /home/harsh/.newrelic/newrelic.yml, /home/harsh/newrelic.yml
+[2016-01-27 22:14:22 +0530 harsh-Lenovo-U410 (13908)] INFO : Environment: development
+[2016-01-27 22:14:22 +0530 harsh-Lenovo-U410 (13908)] INFO : No known dispatcher detected.
+[2016-01-27 22:14:22 +0530 harsh-Lenovo-U410 (13908)] INFO : Application: development
+[2016-01-27 22:14:22 +0530 harsh-Lenovo-U410 (13908)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2016-01-27 22:14:22 +0530 harsh-Lenovo-U410 (13908)] INFO : Installing Redis Instrumentation
+[2016-01-27 22:14:22 +0530 harsh-Lenovo-U410 (13908)] INFO : Installing Net instrumentation
+[2016-01-27 22:14:22 +0530 harsh-Lenovo-U410 (13908)] INFO : Finished instrumentation
+[2016-01-27 22:16:08 +0530 harsh-Lenovo-U410 (13934)] INFO : Starting the New Relic agent in "development" environment.
+[2016-01-27 22:16:08 +0530 harsh-Lenovo-U410 (13934)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2016-01-27 22:16:08 +0530 harsh-Lenovo-U410 (13934)] WARN : No configuration file found. Working directory = /home/harsh/Desktop/clean_workplace
+[2016-01-27 22:16:08 +0530 harsh-Lenovo-U410 (13934)] WARN : Looked in these locations (based on defaults): /home/harsh/Desktop/clean_workplace/config/newrelic.yml, /home/harsh/Desktop/clean_workplace/newrelic.yml, /home/harsh/Desktop/clean_workplace/config/newrelic.yml, /home/harsh/Desktop/clean_workplace/newrelic.yml, /home/harsh/.newrelic/newrelic.yml, /home/harsh/newrelic.yml
+[2016-01-27 22:16:08 +0530 harsh-Lenovo-U410 (13934)] INFO : Environment: development
+[2016-01-27 22:16:08 +0530 harsh-Lenovo-U410 (13934)] INFO : No known dispatcher detected.
+[2016-01-27 22:16:08 +0530 harsh-Lenovo-U410 (13934)] INFO : Application: development
+[2016-01-27 22:16:08 +0530 harsh-Lenovo-U410 (13934)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2016-01-27 22:16:08 +0530 harsh-Lenovo-U410 (13934)] INFO : Installing Redis Instrumentation
+[2016-01-27 22:16:08 +0530 harsh-Lenovo-U410 (13934)] INFO : Installing Net instrumentation
+[2016-01-27 22:16:08 +0530 harsh-Lenovo-U410 (13934)] INFO : Finished instrumentation
+[2016-01-27 22:19:04 +0530 harsh-Lenovo-U410 (13975)] INFO : Starting the New Relic agent in "development" environment.
+[2016-01-27 22:19:04 +0530 harsh-Lenovo-U410 (13975)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2016-01-27 22:19:04 +0530 harsh-Lenovo-U410 (13975)] WARN : No configuration file found. Working directory = /home/harsh/Desktop/clean_workplace
+[2016-01-27 22:19:04 +0530 harsh-Lenovo-U410 (13975)] WARN : Looked in these locations (based on defaults): /home/harsh/Desktop/clean_workplace/config/newrelic.yml, /home/harsh/Desktop/clean_workplace/newrelic.yml, /home/harsh/Desktop/clean_workplace/config/newrelic.yml, /home/harsh/Desktop/clean_workplace/newrelic.yml, /home/harsh/.newrelic/newrelic.yml, /home/harsh/newrelic.yml
+[2016-01-27 22:19:04 +0530 harsh-Lenovo-U410 (13975)] INFO : Environment: development
+[2016-01-27 22:19:04 +0530 harsh-Lenovo-U410 (13975)] INFO : No known dispatcher detected.
+[2016-01-27 22:19:04 +0530 harsh-Lenovo-U410 (13975)] INFO : Application: development
+[2016-01-27 22:19:04 +0530 harsh-Lenovo-U410 (13975)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2016-01-27 22:19:04 +0530 harsh-Lenovo-U410 (13975)] INFO : Installing Redis Instrumentation
+[2016-01-27 22:19:04 +0530 harsh-Lenovo-U410 (13975)] INFO : Installing Net instrumentation
+[2016-01-27 22:19:04 +0530 harsh-Lenovo-U410 (13975)] INFO : Finished instrumentation
+[2016-01-27 22:21:03 +0530 harsh-Lenovo-U410 (14002)] INFO : Starting the New Relic agent in "development" environment.
+[2016-01-27 22:21:03 +0530 harsh-Lenovo-U410 (14002)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2016-01-27 22:21:03 +0530 harsh-Lenovo-U410 (14002)] WARN : No configuration file found. Working directory = /home/harsh/Desktop/clean_workplace
+[2016-01-27 22:21:03 +0530 harsh-Lenovo-U410 (14002)] WARN : Looked in these locations (based on defaults): /home/harsh/Desktop/clean_workplace/config/newrelic.yml, /home/harsh/Desktop/clean_workplace/newrelic.yml, /home/harsh/Desktop/clean_workplace/config/newrelic.yml, /home/harsh/Desktop/clean_workplace/newrelic.yml, /home/harsh/.newrelic/newrelic.yml, /home/harsh/newrelic.yml
+[2016-01-27 22:21:03 +0530 harsh-Lenovo-U410 (14002)] INFO : Environment: development
+[2016-01-27 22:21:03 +0530 harsh-Lenovo-U410 (14002)] INFO : No known dispatcher detected.
+[2016-01-27 22:21:03 +0530 harsh-Lenovo-U410 (14002)] INFO : Application: development
+[2016-01-27 22:21:03 +0530 harsh-Lenovo-U410 (14002)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2016-01-27 22:21:03 +0530 harsh-Lenovo-U410 (14002)] INFO : Installing Redis Instrumentation
+[2016-01-27 22:21:03 +0530 harsh-Lenovo-U410 (14002)] INFO : Installing Net instrumentation
+[2016-01-27 22:21:03 +0530 harsh-Lenovo-U410 (14002)] INFO : Finished instrumentation
+[2016-01-27 22:22:26 +0530 harsh-Lenovo-U410 (14046)] INFO : Starting the New Relic agent in "development" environment.
+[2016-01-27 22:22:26 +0530 harsh-Lenovo-U410 (14046)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2016-01-27 22:22:26 +0530 harsh-Lenovo-U410 (14046)] WARN : No configuration file found. Working directory = /home/harsh/Desktop/clean_workplace
+[2016-01-27 22:22:26 +0530 harsh-Lenovo-U410 (14046)] WARN : Looked in these locations (based on defaults): /home/harsh/Desktop/clean_workplace/config/newrelic.yml, /home/harsh/Desktop/clean_workplace/newrelic.yml, /home/harsh/Desktop/clean_workplace/config/newrelic.yml, /home/harsh/Desktop/clean_workplace/newrelic.yml, /home/harsh/.newrelic/newrelic.yml, /home/harsh/newrelic.yml
+[2016-01-27 22:22:26 +0530 harsh-Lenovo-U410 (14046)] INFO : Environment: development
+[2016-01-27 22:22:26 +0530 harsh-Lenovo-U410 (14046)] INFO : No known dispatcher detected.
+[2016-01-27 22:22:26 +0530 harsh-Lenovo-U410 (14046)] INFO : Application: development
+[2016-01-27 22:22:26 +0530 harsh-Lenovo-U410 (14046)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2016-01-27 22:22:26 +0530 harsh-Lenovo-U410 (14046)] INFO : Installing Redis Instrumentation
+[2016-01-27 22:22:26 +0530 harsh-Lenovo-U410 (14046)] INFO : Installing Net instrumentation
+[2016-01-27 22:22:26 +0530 harsh-Lenovo-U410 (14046)] INFO : Finished instrumentation
+[2016-01-27 22:22:53 +0530 harsh-Lenovo-U410 (14076)] INFO : Starting the New Relic agent in "development" environment.
+[2016-01-27 22:22:53 +0530 harsh-Lenovo-U410 (14076)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2016-01-27 22:22:53 +0530 harsh-Lenovo-U410 (14076)] WARN : No configuration file found. Working directory = /home/harsh/Desktop/clean_workplace
+[2016-01-27 22:22:53 +0530 harsh-Lenovo-U410 (14076)] WARN : Looked in these locations (based on defaults): /home/harsh/Desktop/clean_workplace/config/newrelic.yml, /home/harsh/Desktop/clean_workplace/newrelic.yml, /home/harsh/Desktop/clean_workplace/config/newrelic.yml, /home/harsh/Desktop/clean_workplace/newrelic.yml, /home/harsh/.newrelic/newrelic.yml, /home/harsh/newrelic.yml
+[2016-01-27 22:22:53 +0530 harsh-Lenovo-U410 (14076)] INFO : Environment: development
+[2016-01-27 22:22:53 +0530 harsh-Lenovo-U410 (14076)] INFO : No known dispatcher detected.
+[2016-01-27 22:22:53 +0530 harsh-Lenovo-U410 (14076)] INFO : Application: development
+[2016-01-27 22:22:53 +0530 harsh-Lenovo-U410 (14076)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2016-01-27 22:22:53 +0530 harsh-Lenovo-U410 (14076)] INFO : Installing Redis Instrumentation
+[2016-01-27 22:22:53 +0530 harsh-Lenovo-U410 (14076)] INFO : Installing Net instrumentation
+[2016-01-27 22:22:53 +0530 harsh-Lenovo-U410 (14076)] INFO : Finished instrumentation
+[2016-01-27 22:23:15 +0530 harsh-Lenovo-U410 (14111)] INFO : Starting the New Relic agent in "development" environment.
+[2016-01-27 22:23:15 +0530 harsh-Lenovo-U410 (14111)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2016-01-27 22:23:15 +0530 harsh-Lenovo-U410 (14111)] WARN : No configuration file found. Working directory = /home/harsh/Desktop/clean_workplace
+[2016-01-27 22:23:15 +0530 harsh-Lenovo-U410 (14111)] WARN : Looked in these locations (based on defaults): /home/harsh/Desktop/clean_workplace/config/newrelic.yml, /home/harsh/Desktop/clean_workplace/newrelic.yml, /home/harsh/Desktop/clean_workplace/config/newrelic.yml, /home/harsh/Desktop/clean_workplace/newrelic.yml, /home/harsh/.newrelic/newrelic.yml, /home/harsh/newrelic.yml
+[2016-01-27 22:23:15 +0530 harsh-Lenovo-U410 (14111)] INFO : Environment: development
+[2016-01-27 22:23:15 +0530 harsh-Lenovo-U410 (14111)] INFO : No known dispatcher detected.
+[2016-01-27 22:23:15 +0530 harsh-Lenovo-U410 (14111)] INFO : Application: development
+[2016-01-27 22:23:15 +0530 harsh-Lenovo-U410 (14111)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2016-01-27 22:23:15 +0530 harsh-Lenovo-U410 (14111)] INFO : Installing Redis Instrumentation
+[2016-01-27 22:23:15 +0530 harsh-Lenovo-U410 (14111)] INFO : Installing Net instrumentation
+[2016-01-27 22:23:15 +0530 harsh-Lenovo-U410 (14111)] INFO : Finished instrumentation
+[2016-01-27 22:24:48 +0530 harsh-Lenovo-U410 (14167)] INFO : Starting the New Relic agent in "development" environment.
+[2016-01-27 22:24:48 +0530 harsh-Lenovo-U410 (14167)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2016-01-27 22:24:48 +0530 harsh-Lenovo-U410 (14167)] WARN : No configuration file found. Working directory = /home/harsh/Desktop/clean_workplace
+[2016-01-27 22:24:48 +0530 harsh-Lenovo-U410 (14167)] WARN : Looked in these locations (based on defaults): /home/harsh/Desktop/clean_workplace/config/newrelic.yml, /home/harsh/Desktop/clean_workplace/newrelic.yml, /home/harsh/Desktop/clean_workplace/config/newrelic.yml, /home/harsh/Desktop/clean_workplace/newrelic.yml, /home/harsh/.newrelic/newrelic.yml, /home/harsh/newrelic.yml
+[2016-01-27 22:24:48 +0530 harsh-Lenovo-U410 (14167)] INFO : Environment: development
+[2016-01-27 22:24:48 +0530 harsh-Lenovo-U410 (14167)] INFO : No known dispatcher detected.
+[2016-01-27 22:24:48 +0530 harsh-Lenovo-U410 (14167)] INFO : Application: development
+[2016-01-27 22:24:48 +0530 harsh-Lenovo-U410 (14167)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2016-01-27 22:24:48 +0530 harsh-Lenovo-U410 (14167)] INFO : Installing Redis Instrumentation
+[2016-01-27 22:24:48 +0530 harsh-Lenovo-U410 (14167)] INFO : Installing Net instrumentation
+[2016-01-27 22:24:48 +0530 harsh-Lenovo-U410 (14167)] INFO : Finished instrumentation
+[2016-01-27 22:25:21 +0530 harsh-Lenovo-U410 (14194)] INFO : Starting the New Relic agent in "development" environment.
+[2016-01-27 22:25:21 +0530 harsh-Lenovo-U410 (14194)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2016-01-27 22:25:21 +0530 harsh-Lenovo-U410 (14194)] WARN : No configuration file found. Working directory = /home/harsh/Desktop/clean_workplace
+[2016-01-27 22:25:21 +0530 harsh-Lenovo-U410 (14194)] WARN : Looked in these locations (based on defaults): /home/harsh/Desktop/clean_workplace/config/newrelic.yml, /home/harsh/Desktop/clean_workplace/newrelic.yml, /home/harsh/Desktop/clean_workplace/config/newrelic.yml, /home/harsh/Desktop/clean_workplace/newrelic.yml, /home/harsh/.newrelic/newrelic.yml, /home/harsh/newrelic.yml
+[2016-01-27 22:25:22 +0530 harsh-Lenovo-U410 (14194)] INFO : Environment: development
+[2016-01-27 22:25:22 +0530 harsh-Lenovo-U410 (14194)] INFO : No known dispatcher detected.
+[2016-01-27 22:25:22 +0530 harsh-Lenovo-U410 (14194)] INFO : Application: development
+[2016-01-27 22:25:22 +0530 harsh-Lenovo-U410 (14194)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2016-01-27 22:25:22 +0530 harsh-Lenovo-U410 (14194)] INFO : Installing Redis Instrumentation
+[2016-01-27 22:25:22 +0530 harsh-Lenovo-U410 (14194)] INFO : Installing Net instrumentation
+[2016-01-27 22:25:22 +0530 harsh-Lenovo-U410 (14194)] INFO : Finished instrumentation
+[2016-01-27 22:25:38 +0530 harsh-Lenovo-U410 (14208)] INFO : Starting the New Relic agent in "development" environment.
+[2016-01-27 22:25:38 +0530 harsh-Lenovo-U410 (14208)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2016-01-27 22:25:38 +0530 harsh-Lenovo-U410 (14208)] WARN : No configuration file found. Working directory = /home/harsh/Desktop/clean_workplace
+[2016-01-27 22:25:38 +0530 harsh-Lenovo-U410 (14208)] WARN : Looked in these locations (based on defaults): /home/harsh/Desktop/clean_workplace/config/newrelic.yml, /home/harsh/Desktop/clean_workplace/newrelic.yml, /home/harsh/Desktop/clean_workplace/config/newrelic.yml, /home/harsh/Desktop/clean_workplace/newrelic.yml, /home/harsh/.newrelic/newrelic.yml, /home/harsh/newrelic.yml
+[2016-01-27 22:25:38 +0530 harsh-Lenovo-U410 (14208)] INFO : Environment: development
+[2016-01-27 22:25:38 +0530 harsh-Lenovo-U410 (14208)] INFO : No known dispatcher detected.
+[2016-01-27 22:25:38 +0530 harsh-Lenovo-U410 (14208)] INFO : Application: development
+[2016-01-27 22:25:38 +0530 harsh-Lenovo-U410 (14208)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2016-01-27 22:25:38 +0530 harsh-Lenovo-U410 (14208)] INFO : Installing Redis Instrumentation
+[2016-01-27 22:25:38 +0530 harsh-Lenovo-U410 (14208)] INFO : Installing Net instrumentation
+[2016-01-27 22:25:38 +0530 harsh-Lenovo-U410 (14208)] INFO : Finished instrumentation
+[2016-01-27 22:26:35 +0530 harsh-Lenovo-U410 (14233)] INFO : Starting the New Relic agent in "development" environment.
+[2016-01-27 22:26:35 +0530 harsh-Lenovo-U410 (14233)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2016-01-27 22:26:35 +0530 harsh-Lenovo-U410 (14233)] WARN : No configuration file found. Working directory = /home/harsh/Desktop/clean_workplace
+[2016-01-27 22:26:35 +0530 harsh-Lenovo-U410 (14233)] WARN : Looked in these locations (based on defaults): /home/harsh/Desktop/clean_workplace/config/newrelic.yml, /home/harsh/Desktop/clean_workplace/newrelic.yml, /home/harsh/Desktop/clean_workplace/config/newrelic.yml, /home/harsh/Desktop/clean_workplace/newrelic.yml, /home/harsh/.newrelic/newrelic.yml, /home/harsh/newrelic.yml
+[2016-01-27 22:26:35 +0530 harsh-Lenovo-U410 (14233)] INFO : Environment: development
+[2016-01-27 22:26:35 +0530 harsh-Lenovo-U410 (14233)] INFO : No known dispatcher detected.
+[2016-01-27 22:26:35 +0530 harsh-Lenovo-U410 (14233)] INFO : Application: development
+[2016-01-27 22:26:35 +0530 harsh-Lenovo-U410 (14233)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2016-01-27 22:26:35 +0530 harsh-Lenovo-U410 (14233)] INFO : Installing Redis Instrumentation
+[2016-01-27 22:26:35 +0530 harsh-Lenovo-U410 (14233)] INFO : Installing Net instrumentation
+[2016-01-27 22:26:35 +0530 harsh-Lenovo-U410 (14233)] INFO : Finished instrumentation
+[2016-01-27 22:27:47 +0530 harsh-Lenovo-U410 (14256)] INFO : Starting the New Relic agent in "development" environment.
+[2016-01-27 22:27:47 +0530 harsh-Lenovo-U410 (14256)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2016-01-27 22:27:47 +0530 harsh-Lenovo-U410 (14256)] WARN : No configuration file found. Working directory = /home/harsh/Desktop/clean_workplace
+[2016-01-27 22:27:47 +0530 harsh-Lenovo-U410 (14256)] WARN : Looked in these locations (based on defaults): /home/harsh/Desktop/clean_workplace/config/newrelic.yml, /home/harsh/Desktop/clean_workplace/newrelic.yml, /home/harsh/Desktop/clean_workplace/config/newrelic.yml, /home/harsh/Desktop/clean_workplace/newrelic.yml, /home/harsh/.newrelic/newrelic.yml, /home/harsh/newrelic.yml
+[2016-01-27 22:27:47 +0530 harsh-Lenovo-U410 (14256)] INFO : Environment: development
+[2016-01-27 22:27:47 +0530 harsh-Lenovo-U410 (14256)] INFO : No known dispatcher detected.
+[2016-01-27 22:27:47 +0530 harsh-Lenovo-U410 (14256)] INFO : Application: development
+[2016-01-27 22:27:47 +0530 harsh-Lenovo-U410 (14256)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2016-01-27 22:27:47 +0530 harsh-Lenovo-U410 (14256)] INFO : Installing Redis Instrumentation
+[2016-01-27 22:27:47 +0530 harsh-Lenovo-U410 (14256)] INFO : Installing Net instrumentation
+[2016-01-27 22:27:47 +0530 harsh-Lenovo-U410 (14256)] INFO : Finished instrumentation
+[2016-01-27 22:28:22 +0530 harsh-Lenovo-U410 (14302)] INFO : Starting the New Relic agent in "development" environment.
+[2016-01-27 22:28:22 +0530 harsh-Lenovo-U410 (14302)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2016-01-27 22:28:22 +0530 harsh-Lenovo-U410 (14302)] WARN : No configuration file found. Working directory = /home/harsh/Desktop/clean_workplace
+[2016-01-27 22:28:22 +0530 harsh-Lenovo-U410 (14302)] WARN : Looked in these locations (based on defaults): /home/harsh/Desktop/clean_workplace/config/newrelic.yml, /home/harsh/Desktop/clean_workplace/newrelic.yml, /home/harsh/Desktop/clean_workplace/config/newrelic.yml, /home/harsh/Desktop/clean_workplace/newrelic.yml, /home/harsh/.newrelic/newrelic.yml, /home/harsh/newrelic.yml
+[2016-01-27 22:28:22 +0530 harsh-Lenovo-U410 (14302)] INFO : Environment: development
+[2016-01-27 22:28:22 +0530 harsh-Lenovo-U410 (14302)] INFO : No known dispatcher detected.
+[2016-01-27 22:28:22 +0530 harsh-Lenovo-U410 (14302)] INFO : Application: development
+[2016-01-27 22:28:22 +0530 harsh-Lenovo-U410 (14302)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2016-01-27 22:28:22 +0530 harsh-Lenovo-U410 (14302)] INFO : Installing Redis Instrumentation
+[2016-01-27 22:28:22 +0530 harsh-Lenovo-U410 (14302)] INFO : Installing Net instrumentation
+[2016-01-27 22:28:22 +0530 harsh-Lenovo-U410 (14302)] INFO : Finished instrumentation
+[2016-01-27 22:30:07 +0530 harsh-Lenovo-U410 (14362)] INFO : Starting the New Relic agent in "development" environment.
+[2016-01-27 22:30:07 +0530 harsh-Lenovo-U410 (14362)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2016-01-27 22:30:07 +0530 harsh-Lenovo-U410 (14362)] WARN : No configuration file found. Working directory = /home/harsh/Desktop/clean_workplace
+[2016-01-27 22:30:07 +0530 harsh-Lenovo-U410 (14362)] WARN : Looked in these locations (based on defaults): /home/harsh/Desktop/clean_workplace/config/newrelic.yml, /home/harsh/Desktop/clean_workplace/newrelic.yml, /home/harsh/Desktop/clean_workplace/config/newrelic.yml, /home/harsh/Desktop/clean_workplace/newrelic.yml, /home/harsh/.newrelic/newrelic.yml, /home/harsh/newrelic.yml
+[2016-01-27 22:30:07 +0530 harsh-Lenovo-U410 (14362)] INFO : Environment: development
+[2016-01-27 22:30:07 +0530 harsh-Lenovo-U410 (14362)] INFO : No known dispatcher detected.
+[2016-01-27 22:30:07 +0530 harsh-Lenovo-U410 (14362)] INFO : Application: development
+[2016-01-27 22:30:07 +0530 harsh-Lenovo-U410 (14362)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2016-01-27 22:30:07 +0530 harsh-Lenovo-U410 (14362)] INFO : Installing Redis Instrumentation
+[2016-01-27 22:30:07 +0530 harsh-Lenovo-U410 (14362)] INFO : Installing Net instrumentation
+[2016-01-27 22:30:07 +0530 harsh-Lenovo-U410 (14362)] INFO : Finished instrumentation
+[2016-01-27 22:32:31 +0530 harsh-Lenovo-U410 (14415)] INFO : Starting the New Relic agent in "development" environment.
+[2016-01-27 22:32:31 +0530 harsh-Lenovo-U410 (14415)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2016-01-27 22:32:31 +0530 harsh-Lenovo-U410 (14415)] WARN : No configuration file found. Working directory = /home/harsh/Desktop/clean_workplace
+[2016-01-27 22:32:31 +0530 harsh-Lenovo-U410 (14415)] WARN : Looked in these locations (based on defaults): /home/harsh/Desktop/clean_workplace/config/newrelic.yml, /home/harsh/Desktop/clean_workplace/newrelic.yml, /home/harsh/Desktop/clean_workplace/config/newrelic.yml, /home/harsh/Desktop/clean_workplace/newrelic.yml, /home/harsh/.newrelic/newrelic.yml, /home/harsh/newrelic.yml
+[2016-01-27 22:32:31 +0530 harsh-Lenovo-U410 (14415)] INFO : Environment: development
+[2016-01-27 22:32:31 +0530 harsh-Lenovo-U410 (14415)] INFO : No known dispatcher detected.
+[2016-01-27 22:32:31 +0530 harsh-Lenovo-U410 (14415)] INFO : Application: development
+[2016-01-27 22:32:31 +0530 harsh-Lenovo-U410 (14415)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2016-01-27 22:32:31 +0530 harsh-Lenovo-U410 (14415)] INFO : Installing Redis Instrumentation
+[2016-01-27 22:32:31 +0530 harsh-Lenovo-U410 (14415)] INFO : Installing Net instrumentation
+[2016-01-27 22:32:31 +0530 harsh-Lenovo-U410 (14415)] INFO : Finished instrumentation

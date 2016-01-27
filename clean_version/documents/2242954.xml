@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<document>
+  <id>2242954</id>
+  <title>Crystallization and preliminary X-ray crystallographic analysis of yeast NAD+-specific isocitrate dehydrogenase. Corrigendum
+</title>
+  <abstract>
+ A corrigendum to the article by Hu et al. (2005), Acta Cryst. F61, 486&#x2013;488. The article by Hu et al. [(2005), Acta Cryst. F61, 486&#x2013;488] is corrected.
+</abstract>
+  <content>
+ The report by Hu et al. (2005 &#x25B6;) described crystallization and preliminary diffraction data for yeast NAD+-specific isocitrate dehydrogenase (IDH). The technical aspects of the crystallographic work are not compromised. However, the crystals were later found to be of the yeast nicotinimidase Pnc1p and not IDH. Three factors contributed to the misidentification of the protein in the crystals. First, the protein sample used for crystallization was &#x223C;97% pure isocitrate dehydrogenase as estimated by denaturing gel electrophoresis. Second, the large unit cell with a = b = 302.0, c = 112.1&#x2005;&#xC5; seemed consistent with the size expected for an octameric IDH molecule with subunits of molecular mass &#x223C;38&#x2005;kDa. Third, at the writing of report, the initial experimental electron-density maps revealed features expected of IDH, as IDH and nicotinamidase structures both contain multi-stranded &#x3B2;-sheets flanked by &#x3B1;-helices and a prominent loop containing a two-stranded antiparallel &#x3B2;-sheet. As the chain-tracing exercise progressed, however, it became apparent that the protein was not IDH. The coordinates for the completed protein backbone were used in a DALI search (Holm &amp; Sander, 1993 &#x25B6;) and a nicotinamidase from the bacterium Pyrococcus horikoshii (pdb code 1im5) (Du et al., 2001 &#x25B6;) was returned as the highest scoring molecule. A search of the yeast genome with this bacterial nicotinamidase sequence returned the sequence of the 24&#x2005;kDa nicotinimidase Pnc1p, an enzyme that functions in the NAD+ salvage pathway (Ghislain et al., 2002 &#x25B6;). That Pnc1p was the minor contaminant in the original protein sample was confirmed by gel electrophoresis followed by mass spectrometry. The Pnc1p amino-acid sequence was completely consistent with that observed in the experimental electron density. The large unit cell resulted from the presence of seven Pnc1p molecules in the asymmetric unit.
+</content>
+</document>
